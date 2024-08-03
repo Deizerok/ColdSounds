@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "553038055933",
+    "project_id": "coolmusic-cloud",
+    "storage_bucket": "coolmusic-cloud.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553038055933:android:cd2414e22907dc56c57194",
+        "android_client_info": {
+          "package_name": "com.example.coldsound"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553038055933-ds7c16bucbrk3ce2va29jkl5b37u3cp6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBp1hPfAT4Nk6u2Uh_qW1XWiBTGuZhqgts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "553038055933-ds7c16bucbrk3ce2va29jkl5b37u3cp6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
