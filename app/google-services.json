@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "589738851942",
+    "project_id": "coldsounds-s",
+    "storage_bucket": "coldsounds-s.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589738851942:android:708d8eb94cd42d4737f7a7",
+        "android_client_info": {
+          "package_name": "com.example.coldsounds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589738851942-8crdmnq4mdjo2lglikvkrpt6cp36c1j6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwvqaMoMF52p9gId8H6dP4W6lvZq3weC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589738851942-8crdmnq4mdjo2lglikvkrpt6cp36c1j6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589738851942:android:3270f6dd82ac7c4a37f7a7",
+        "android_client_info": {
+          "package_name": "com.example.coldsounds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589738851942-8crdmnq4mdjo2lglikvkrpt6cp36c1j6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwvqaMoMF52p9gId8H6dP4W6lvZq3weC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589738851942-8crdmnq4mdjo2lglikvkrpt6cp36c1j6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
