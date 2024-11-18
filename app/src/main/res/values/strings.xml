@@ -2,7 +2,9 @@
     <string name="app_name">ColdSounds</string>
     <string name="default_web_client_id">589738851942-8crdmnq4mdjo2lglikvkrpt6cp36c1j6.apps.googleusercontent.com</string>
     <string name="sign_in_with_google">Sign in with Google</string>
-    <string name="welcome_to_coldsound">Welcome to ColdSounds</string>
+    <string name="welcome_to_coldsound">Hello</string>
     <string name="my_profile">My Profile</string>
     <string name="account">Account</string>
+    <string name="welcome_to_coldsounds_where_you_discovery_favorite_music">Welcome to ColdSounds. \n Where you discovery favorite music</string>
+    <string name="favorites">Favorites</string>
 </resources>

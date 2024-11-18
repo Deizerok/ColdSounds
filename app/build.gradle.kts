@@ -35,11 +35,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = "1.8"
+        jvmTarget = "17"
     }
 
     buildFeatures {
@@ -48,31 +48,31 @@ android {
 }
 
 dependencies {
-    //Hilt
+    // FireBase
+    implementation(libs.play.services.auth)
+    implementation(libs.firebase.auth.ktx)
+    // by viewModel
     implementation(libs.androidx.activity.ktx)
     implementation(libs.androidx.fragment.ktx)
+    //Hilt
     implementation(libs.hilt.android)
     kapt(libs.hilt.android.compiler)
     //Room
     implementation(libs.androidx.room.ktx)
     kapt(libs.androidx.room.compiler)
     androidTestImplementation(libs.androidx.room.testing)
-    //Image Picasso
+    //Picasso
     implementation(libs.picasso)
-    //Firebase
-    implementation(libs.firebase.bom)
-    implementation(libs.google.firebase.auth)
-    implementation(libs.play.services.auth)
-    //Another
+    //Android
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
-    implementation(libs.firebase.auth)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
 }
 
 kapt {

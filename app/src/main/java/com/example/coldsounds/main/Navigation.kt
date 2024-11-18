@@ -1,6 +1,5 @@
 package com.example.coldsounds.main
 
-
 import com.example.coldsounds.core.LiveDataWrapper
 import com.example.coldsounds.core.ProvideLiveData
 import com.example.coldsounds.core.UiUpdate
@@ -9,9 +8,7 @@ import javax.inject.Singleton
 
 interface Navigation {
 
-    interface Navigate : UiUpdate<Screen> {
-        override fun updateUi(value: Screen)
-    }
+    interface Navigate : UiUpdate<Screen>
 
     interface Read : ProvideLiveData<Screen>
 

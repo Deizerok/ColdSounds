@@ -17,10 +17,13 @@
         tools:ignore="Suspicious0dp" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:visibility="gone"
+        android:visibility="visible"
+        android:layout_margin="16dp"
         android:id="@+id/bottomNavigation"
-        android:background="@color/app_color"
+        android:background="@drawable/radius_16"
+        app:backgroundTint="#211F26"
         app:itemTextColor="@color/white"
+        app:itemIconTint="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:menu="@menu/navigation_menu" />
